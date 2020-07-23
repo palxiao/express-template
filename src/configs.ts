@@ -10,7 +10,7 @@ const dbs = [
         port: 3306,
         user: 'root',
         password: 'root',
-        database: 'frog_punch'
+        database: ''
     }
 ]
 

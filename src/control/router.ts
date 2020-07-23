@@ -1,11 +1,10 @@
 const rExpress = require('express');
-const user = require('../service/user.ts');
+const test = require('../service/test.ts');
 const api = require('./api.ts');
 
 const rRouter = rExpress.Router();
 
-rRouter.post(api.userAdd, user.addOne); // 注册用户
-rRouter.get(api.userLogin, user.login); // 用户登录
+rRouter.get(api.TEST, test.eg);
 
 module.exports = rRouter;
 
